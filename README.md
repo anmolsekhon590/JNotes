@@ -1,10 +1,15 @@
 # JNotes
 
-JNotes is a note taking application built on Java using JavaFX.
+JNotes is a note taking application built on Java  using JavaFX.
 
   - Save your notes 
   - Browse existing notes
   - Edit Notes
+
+### Usage
+
+Clone the repo and open using an IDE (IntelliJ recommended) to get started. Make sure to add JavaFX to your project and define the 'lib' folder in VM Options.
+
 
 ### Tech
 
@@ -18,7 +23,7 @@ JNotes itself is open source with a [public repository] on GitHub.
 
 ### Dependencies
 
-Dillinger requires Java and JavaFX to be installed to run.
+JNotes requires Java 15 and JavaFX to be installed to run.
 
 
 License
