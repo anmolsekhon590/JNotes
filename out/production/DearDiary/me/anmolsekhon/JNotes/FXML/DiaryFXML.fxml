@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="me.anmolsekhon.JNotes.FXMLController.DiaryFXMLController"
+             styleClass="app"  prefWidth="800">
+    <top>
+        <VBox alignment="CENTER" maxWidth="Infinity" >
+            <children>
+                <Label fx:id="lblheading" text="JNotes" styleClass="heading" />
+            </children>
+            <HBox>
+                <children>
+                    <Label text="Date: "/>
+                    <DatePicker fx:id="datePicker" />
+                </children>
+            </HBox>
+        </VBox>
+    </top>
+
+    <center>
+        <VBox maxWidth="Infinity" styleClass="textbox" >
+            <children>
+                <TextArea fx:id="txtNote" wrapText="true" prefHeight="400"  />
+            </children>
+        </VBox>
+    </center>
+
+    <bottom>
+        <HBox>
+            <children>
+                <Button fx:id="btnSave" text="SAVE" />
+                <Button fx:id="btnExit" text="EXIT" />
+            </children>
+        </HBox>
+    </bottom>
+</BorderPane>
